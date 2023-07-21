@@ -1,0 +1,10 @@
+<title>looking_at Predict App</title>
+{% if looking_at %}
+    <h1>この人は {{ looking_at }} </h1>
+    <div>
+        <img src="{{ image }}">
+    </div>
+    <a href="./">トップへ戻る</a>
+{% else %}
+    <a href="./">トップへ戻る</a>
+{% endif %}
